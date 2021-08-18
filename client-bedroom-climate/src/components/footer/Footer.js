@@ -15,7 +15,7 @@ const Footer = () => {
             </Navbar.Brand>
 
             <Nav className="mr-auto">
-                <Nav.Link target="_blank" href="https://github.com/sweetkane/client_bedroom-climate">GitHub</Nav.Link>
+                <Nav.Link target="_blank" href="https://github.com/sweetkane/bedroom_climate">GitHub</Nav.Link>
                 <Nav.Link target="_blank" href="https://www.linkedin.com/in/kane-sweet/">LinkedIn</Nav.Link>
             </Nav>
         </Navbar>
