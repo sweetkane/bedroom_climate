@@ -19,8 +19,8 @@
 
 
 //----------------------------- HTTP Client Pre-setup
-const char* ssid = "Chad's Poundhouse";
-const char* password = "youarewelcome";
+const char* ssid = "Wireless";
+const char* password = "Shaloctrev8";
 
 //Your Domain name with URL path or IP address with path
 const char* serverName = "http://localhost:3001/";
