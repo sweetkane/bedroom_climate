@@ -1,7 +1,13 @@
-# Bedroom Climate Control
+# 🌡️🌤️ Bedroom Climate Control 🌡️🌤️ 
 ## Introduction
+_This is my first personal project circa 2021!_
 
-This is a full stack project built in a few days by Kane Sweet. The goal was to build a personal climate-control dashboard that compiles temperature + humidity data from multiple sources and presents them to the user with an intuitive UX. The dashboard also allows the user to customize their preferences, and based on the indoor and outdoor climates, it determines whether opening or closing the user's window will better suit their preferred climate. 
+The Bedroom Climate Control web app gathers the **temperature** and **humidity** 
+1. outside the user's window
+2. inside the user's home
+3. preferred by the user.
+
+Using these six values it computes a simple suggestion: whether or not the user should open their window!
 
 ## Screenshot
 ![alt text](https://github.com/sweetkane/bedroom_climate/blob/master/client-bedroom-climate/public/Screenshot.PNG)
@@ -19,4 +25,4 @@ It handles GET requests by pulling the most recent data for the given category f
 ## Sensor Module
 The sensor module is an ESP32 development module equipped with a DHT22 temperature+humidity sensor. 
 Because ESP32 is wifi-enabled, it can wirelessly sends sensor readings to the server at a chosen interval.
-It sends the data as a POST request using a C++ HTTP library.
+It sends the data to the server as a POST request using a C++ HTTP library.
