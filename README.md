@@ -1,6 +1,6 @@
 # 🌡️🌤️ Bedroom Climate Control 🌡️🌤️ 
 ## Introduction
-_This is my first personal project circa 2021!_
+_This is my first personal project circa 2021! I've left it mostly untouched since then, except for some small changes to this readme._
 
 The Bedroom Climate Control web app gathers the **temperature** and **humidity** 
 1. outside the user's window
